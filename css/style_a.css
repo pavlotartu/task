@@ -1,0 +1,83 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.inicio {
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
+
+.liga {
+    font-size: 60px;
+    position: absolute;
+    top: 10px;
+    left: 2%;
+    box-shadow: black;
+    color: rgb(0, 0, 0); 
+    z-index: 2; 
+
+}
+
+.banner {
+    max-width: 100%;
+    width: 100vw;
+    height: 25vw;
+    object-fit: cover;
+    object-position: 0% 18%;
+}
+
+.inicio2 {
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    position: relative;
+}
+
+.evento {
+    color: white;
+    text-align: center;
+    
+}
+
+.logo {
+    width: 7vw;
+    height: 7vw;
+    position: absolute;
+    left: 80%;
+    top: -25px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.barra {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra a {
+    margin: 20px 0;
+}
+
+.contenido {
+    margin: 20px;
+    padding: 15px;
+    flex: 1;
+}
+
+.contenido h4 {
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    margin-bottom: 20px;
+}
+
