@@ -134,11 +134,12 @@ table > caption {
     text-align : start;
 }
 
-.debajo {
-    margin : 1vw 0 2vw 15vw;
+.debajo > p {
+    margin: 0vw 0vw 2vw 15vw;
+    padding-right: 10vw;
 }
 
 .columnah p {
     display: inline-block;
-    margin-right: 10vw;
+    margin: 0vw 0vw 2vw 15vw;
 }
