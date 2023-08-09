@@ -129,13 +129,14 @@ table {
 
 thead {
     background-color: #d6d0d0
-
 }
 
 th {
     border-radius: 1vw;
     padding: 0.5vw;
     font-weight: bold;
+    border-color: rgb(26, 22, 22);
+    border-style: double;
 }
 
 tbody > tr {
