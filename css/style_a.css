@@ -1,110 +1,144 @@
 * {
-margin : 0;
-padding : 0;
-box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
 }
+
 .inicio {
-display : flex;
+    display : flex;
 }
+
 .liga {
-font-size : 6vw;
-position : absolute;
-color : rgb(0, 0, 0);
+    font-size : 6vw;
+    position : absolute;
+    color : rgb(0, 0, 0);
 }
+
 img .banner {
-display : flex;
+    display : flex;
 }
+
 .banner {
-max-width : 100%;
-width : 100vw;
-height : 20vw;
-object-fit : cover;
-object-position : 0% 18%;
+    max-width : 100%;
+    width : 100vw;
+    height : 20vw;
+    object-fit : cover;
+    object-position : 0% 18%;
 }
+
 .inicio2 {
-background-color : black;
-position : relative;
+    background-color : black;
+    position : relative;
 }
+
 .evento {
-text-align : center;
-color : white;
-text-align : center;
+    text-align : center;
+    color : white;
+    text-align : center;
 }
+
 .logo {
-width : 7vw;
-height : 7vw;
-position : absolute;
-left : 80%;
-bottom : 0;
+    width : 7vw;
+    height : 7vw;
+    position : absolute;
+    left : 80%;
+    bottom : 0;
 }
+
 main {
-display : flex;
+    display : flex;
+    align-items: flex-start;
 }
+
 .barra {
-padding : 0.5vw;
-margin : 0.5vw;
-display : flex;
-flex-direction : column;
+    padding : 0.5vw;
+    margin : 0.5vw;
+    display : flex;
+    flex-direction : column;
 }
+
 .barra a:hover {
-text-decoration : none;
+    text-decoration : none;
 }
+
 .barra a {
-margin : 1vw 0;
+    margin : 1vw 0;
 }
+
 .button {
-margin : 0.5rem;
-padding : 0.5rem;
-text-align : center;
-color : white;
-background-color : rgb(67, 67, 187);
-text-decoration : none;
-box-shadow : 4px 4px 2px rgb(63, 62, 62);
-width : 150px;
-border-radius : 2vw;
+    margin : 0.5rem;
+    padding : 0.5rem;
+    text-align : center;
+    color : white;
+    background-color : rgb(67, 67, 187);
+    text-decoration : none;
+    box-shadow : 4px 4px 2px rgb(63, 62, 62);
+    width : 150px;
+    border-radius : 2vw;
 }
+
 .button:hover {
-background-color : rgb(59, 192, 59);
+    background-color : rgb(59, 192, 59);
 }
+
 .contenido {
-padding : 2vw;
+    padding : 2vw;
 }
+
 .contenido h4 {
-margin-bottom : 1vw;
+    margin-bottom : 1vw;
 }
+
 .contenido p {
-margin-bottom : 1vw;
+    margin-bottom : 1vw;
 }
+
 .titulo-center {
-text-align : center;
+    text-align : center;
 }
+
 .abcd {
-list-style-type : lower-alpha;
-margin-left : 2vw;
-font-weight : normal;
+    list-style-type : lower-alpha;
+    margin-left : 2vw;
+    font-weight : normal;
 }
 .list-li {
-margin-left : 20px;
-margin-bottom : 10px;
+    margin-left : 20px;
+    margin-bottom : 10px;
 }
-caption {
-text-align : left;
+
+.fall {
+    display: inline;
+    border-collapse: collapse;
+    margin: 2vw ;
 }
-.all-games {
-    position: absolute;
-    padding-top: 4vw;
-    padding-left: 15vw;
+
+table > caption {
+    margin-top: 3vw;
 }
+
 table {
-margin : 2vw;
-padding : 2vw;
-width : 50vw;
-border-spacing : 10px;
-text-align : center;
+    transform: translateX(-15vw);
+    margin : 2vw;
+    padding : 2vw;
+    width : 50vw;
+    border-spacing : 10px;
+    text-align : center;
 }
+
+table > caption {
+    margin-right: 28vw;
+}
+
 .left {
-text-align : start;
+    text-align : start;
 }
+
 .debajo {
-margin : 1vw 0 2vw 15vw;
+    margin : 1vw 0 2vw 15vw;
+}
+
+.columnah p {
+    display: inline-block;
+    margin-right: 10vw;
 }
