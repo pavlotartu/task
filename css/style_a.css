@@ -115,6 +115,7 @@ main {
 
 table > caption {
     margin-top: 3vw;
+    text-decoration: underline;
 }
 
 table {
@@ -124,6 +125,21 @@ table {
     width : 50vw;
     border-spacing : 10px;
     text-align : center;
+}
+
+thead {
+    background-color: #d6d0d0
+
+}
+
+th {
+    border-radius: 1vw;
+    padding: 0.5vw;
+    font-weight: bold;
+}
+
+tbody > tr {
+    transform: translateX(1vw);
 }
 
 table > caption {
