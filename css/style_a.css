@@ -1,0 +1,179 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.inicio {
+    display : flex;
+}
+
+.liga {
+    font-size : 6vw;
+    position : absolute;
+    color : rgb(0, 0, 0);
+}
+
+img .banner {
+    display : flex;
+}
+
+.banner {
+    max-width : 100%;
+    width : 100vw;
+    height : 20vw;
+    object-fit : cover;
+    object-position : 0% 18%;
+}
+
+.inicio2 {
+    background-color : black;
+    position : relative;
+}
+
+.evento {
+    text-align : center;
+    color : white;
+    text-align : center;
+}
+
+.logo {
+    width : 7vw;
+    height : 7vw;
+    position : absolute;
+    left : 80%;
+    bottom : 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+main {
+    display : flex;
+    align-items: flex-start;
+}
+
+.barra {
+    padding : 0.5vw;
+    margin : 0.5vw;
+    display : flex;
+    flex-direction : column;
+}
+
+.barra a:hover {
+    text-decoration : none;
+}
+
+.barra a {
+    margin : 1vw 0;
+}
+
+.button {
+    margin : 0.5rem;
+    padding : 0.5rem;
+    text-align : center;
+    color : white;
+    background-color : rgb(67, 67, 187);
+    text-decoration : none;
+    box-shadow : 4px 4px 2px rgb(63, 62, 62);
+    width : 150px;
+    border-radius : 2vw;
+}
+
+.button:hover {
+    background-color : rgb(59, 192, 59);
+}
+
+.contenido {
+    flex: 1;
+    padding : 2vw;
+}
+
+.contenido h4 {
+    margin-bottom : 1vw;
+}
+
+.contenido p {
+    margin-bottom : 1vw;
+}
+
+.titulo-center {
+    text-align : center;
+}
+
+.abcd {
+    list-style-type : lower-alpha;
+    margin-left : 2vw;
+    font-weight : normal;
+}
+.list-li {
+    margin-left : 20px;
+    margin-bottom : 10px;
+}
+
+.fall {
+    margin: 2vw 0vw 0vw 2vw;
+}
+
+table > caption {
+    margin-top: 3vw;
+    text-decoration: underline;
+}
+
+table {
+    padding : 2vw;
+    width : 50vw;
+    border-spacing : 10px;
+    text-align : center;
+}
+
+thead {
+    background-color: #d6d0d0
+}
+
+th {
+    border-radius: 1vw;
+    padding: 0.5vw;
+    font-weight: bold;
+    border-color: rgb(26, 22, 22);
+    border-style: double;
+}
+
+tbody > tr {
+    transform: translateX(1vw);
+}
+
+table > caption {
+    margin-right: 28vw;
+}
+
+.left {
+    text-align : start;
+}
+
+.debajo > p {
+    margin: 0vw 0vw 2vw 3vw;
+    padding-right: 10vw;
+}
+
+.columnah p {
+    display: inline-block;
+    margin: 0vw 0vw 2vw 3vw;
+}
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 2vw;
+    align-items: flex-start;
+}
+
+.map {
+    background-color: thistle;
+    text-align: center;
+    border-radius: 1vw;
+}
