@@ -177,3 +177,75 @@ table > caption {
     text-align: center;
     border-radius: 1vw;
 }
+
+fieldset {
+    border: none;
+}
+
+.formularios {
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.form01 {
+    margin: 1vw 0vw 2vw 0vw;
+}
+
+.form01  fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.form01 fieldset label {
+    padding: 0.5vw;
+}
+
+.form02 {
+    margin: 1vw 0vw 2vw 0vw;
+}
+
+.form02  fieldset {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form02 fieldset label {
+    padding: 0.5vw;
+}
+
+.form03 {
+    margin: 1vw 0vw 2vw 0vw;
+}
+
+.form03  fieldset {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form03 fieldset label {
+    padding: 0.5vw;
+}
+
+.form04 {
+    margin: 1vw 0vw 2vw 0vw;
+}
+
+.form04  fieldset {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form04 fieldset label {
+    padding: 0.5vw;
+}
+
+#address {
+    width: 30.9vw;
+
+}
+
+#city {
+    width: 17vw;
+}
