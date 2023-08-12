@@ -10,15 +10,15 @@
 </head>
 <body>
     <header>
-            <h1 class="liga">Mighty Ducks Hockey League</h1>
-            <div class="inicio">
-                <img class="banner" src="./assets/img/design1_image1.jpg" alt="banner">
-            </div>
-            <div class="inicio2">
-                <img class="logo" src="./assets/img/Logo01.png" alt="logo" width="100">
-                <h2 class="evento">Registration Form</h2>
-            </div>
-    </header>
+        <h1 class="liga">Mighty Ducks Hockey League</h1>
+        <div class="inicio">
+            <img class="banner" src="./assets/img/design1_image1.jpg" alt="banner">
+        </div>
+        <div class="inicio2">
+            <img class="logo" src="./assets/img/Logo01.png" alt="logo" width="100">
+            <h2 class="evento">Contact</h2>
+        </div>
+</header>
     <div class="container">
         <nav class="barra">
             <a class="button" href="./index.html">Home</a>
@@ -28,9 +28,7 @@
             <a class="button" href="./game.html">Game Information</a>
             <a class="button" href="#./form.html">Registration Form</a>
         </nav>
-    <main>
-
-
+        <main>
             <div class="formularios">
                 <h1>Registration Form</h1>
                 <form action="./showdata.html" method="get">
@@ -61,26 +59,26 @@
                                 <input type="text" name="code" placeholder="You zip code">
                             </label>
                         </fieldset>
+                        <div>
+                            <fieldset>
+                                <label>
+                                    <span><strong>Birth Date (mm/dd/yyy):</strong></span>
+                                    <input type="date" name="date" value="">
+                                </label>
+                                <label class="genderw">
+                                    <span><strong>Gender</strong></span>
+                                    <input type="radio" name="gender" value="female">
+                                    <span>Female</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="gender" value="male">
+                                    <span>Male</span>
+                                </label>
+                            </fieldset>  
+                        </div>    
                         <fieldset>
                             <label>
-                                <span><strong>Birth Date:</strong></span>
-                                <input type="date" name="date" value="">
-                            </label>
-                        </fieldset>  
-                        <fieldset>
-                            <legend><strong>Gender</strong></legend>
-                            <label>
-                                <input type="radio" name="gender" value="female">
-                                <span>Female</span>
-                            </label>
-                            <label>
-                                <input type="radio" name="gender" value="male">
-                                <span>Male</span>
-                            </label>
-                        </fieldset>    
-                        <fieldset>
-                            <legend><strong>Grade</strong></legend>
-                            <label>
+                                <span><strong>Grade</strong></span>
                                 <input type="radio" name="grade" value="Pre">
                                 <span>Pre-School</span>
                             </label>
@@ -105,7 +103,7 @@
                                 <span>5st</span>
                             </label>      
                         </fieldset>
-                    </div>
+                    </div>    
                     <div class="form02">
                         <h3>Which elementary school do you live near?</h3> <br>
                         <h3>Closset school:</h3>
@@ -193,16 +191,29 @@
                             </label>   
                         </fieldset>
                     </div>    
+                    <div class="form05">
+                        <h3>Permission to Play</h3>
+                        <p>The parent ,or guardian of the minor registrant, agree tbat the, regiistranl and I will abide by lall the rules, 10f ~he Miglhty Ducks Hockey Lea.gue (!MOHL). ln recognizing lhe possibility· of physlcal injury· associated wi~h !hockey and in consìderation for the "Leaque" accepting the registrant for its hockey programs and 1activilies, I hereby release, dlscharqe, and/or otherwise i1ndemnify !MOHL, their e,m¡ployees and associated personnel and volunteers.íncludlnq the facilities used for practices and games, aga'nst any claim by or 0n behalf of the registrant as la result of the registrant's partlclpatlon in the proqramand/orbeinq transported to or from MDHL sponsored actlvitlas, whlch transportation By signing below, I lherebyagree andauthorlzethe above.ln addition, by signing below, lalso acknowledge that I have read the cancellatlon pollicy and a.gr1ee to its terms.</p>
+                            <fieldset>
+                                <label>
+                                    <span><strong>Parent/Guardian Signature:</strong></span>
+                                    <input type="text" id="parent" name="parent" placeholder="Signature">
+                                </label>
+                            </fieldset>
+                            <fieldset>
+                                <label>
+                                    <span><strong>Date:</strong></span>
+                                    <input type="text" id="datees" name="datees" placeholder="You Dates">
+                                </label>
+                            </fieldset>
+                    </div>
 
-                    <fieldset>
-                        <input type="submit" value="enviar">
+                    <fieldset class="enviar">
+                        <input type="submit" value="ENVIAR">
                     </fieldset>
-
                 </form>
+
             </div>
-
-
-
     </main>
 </div>
 </body>

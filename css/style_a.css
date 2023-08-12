@@ -9,7 +9,7 @@
 }
 
 .liga {
-    font-size : 6vw;
+    font-size : 5vw;
     position : absolute;
     color : rgb(0, 0, 0);
 }
@@ -19,7 +19,7 @@ img .banner {
 }
 
 .banner {
-    max-width : 100%;
+    max-width : 100vw;
     width : 100vw;
     height : 20vw;
     object-fit : cover;
@@ -89,6 +89,7 @@ main {
 .contenido {
     flex: 1;
     padding : 2vw;
+    text-align: justify;
 }
 
 .contenido h4 {
@@ -169,7 +170,7 @@ table > caption {
     justify-content: center;
     gap: 2vw;
     margin-bottom: 2vw;
-    align-items: flex-start;
+
 }
 
 .map {
@@ -202,13 +203,19 @@ fieldset {
     padding: 0.5vw;
 }
 
+.genderw {
+    margin-left: 2vw;
+}
+
 .form02 {
+    max-width: 40vw;
     margin: 1vw 0vw 2vw 0vw;
 }
 
 .form02  fieldset {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .form02 fieldset label {
@@ -216,12 +223,14 @@ fieldset {
 }
 
 .form03 {
+    max-width: 40vw;
     margin: 1vw 0vw 2vw 0vw;
 }
 
 .form03  fieldset {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .form03 fieldset label {
@@ -229,12 +238,14 @@ fieldset {
 }
 
 .form04 {
+    max-width: 40vw;
     margin: 1vw 0vw 2vw 0vw;
 }
 
 .form04  fieldset {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .form04 fieldset label {
@@ -249,3 +260,41 @@ fieldset {
 #city {
     width: 17vw;
 }
+
+.form05  fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.form05 fieldset label {
+padding: 1vw 0vw 1vw 0vw;
+}
+
+.form05 p {
+    padding: 0vw 0vw 1vw 0vw;
+    text-align: justify;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 550px) {
+    html header{
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+    html div.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 2;
+    }
+    html main {
+        display: flex;
+        flex-direction: column;
+        order: 3;
+    }
+
+
+}
+
