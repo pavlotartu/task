@@ -276,7 +276,6 @@ padding: 1vw 0vw 1vw 0vw;
     text-align: justify;
 }
 
-
 @media only screen and (min-width: 320px) and (max-width: 550px) {
     html header{
         display: flex;
@@ -299,6 +298,4 @@ padding: 1vw 0vw 1vw 0vw;
         flex-direction: column;
         align-items: center;
     }
-
 }
-
