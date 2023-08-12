@@ -294,7 +294,11 @@ padding: 1vw 0vw 1vw 0vw;
         flex-direction: column;
         order: 3;
     }
-
+    main form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
