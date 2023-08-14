@@ -27,7 +27,7 @@ img .banner {
 }
 
 .inicio2 {
-    background-color : black;
+    background-color : rgb(0, 0, 0);
     position : relative;
 }
 
@@ -131,14 +131,14 @@ table {
 }
 
 thead {
-    background-color: #d6d0d0
+    background-color: thistle;
 }
 
 th {
     border-radius: 1vw;
     padding: 0.5vw;
     font-weight: bold;
-    border-color: rgb(26, 22, 22);
+    border-color: rgb(0, 0, 0);
     border-style: double;
 }
 
@@ -190,13 +190,17 @@ fieldset {
 }
 
 .form01 {
+    max-width: 55vw;
     margin: 1vw 0vw 2vw 0vw;
+    box-shadow: 3px 3px 5px rgba(223, 44, 163, 0.3);
 }
 
 .form01  fieldset {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+
+
 }
 
 .form01 fieldset label {
@@ -208,7 +212,7 @@ fieldset {
 }
 
 .form02 {
-    max-width: 40vw;
+    max-width: 55vw;
     margin: 1vw 0vw 2vw 0vw;
 }
 
@@ -216,6 +220,7 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+    box-shadow: 3px 3px 5px rgba(223, 44, 163, 0.3);
 }
 
 .form02 fieldset label {
@@ -223,7 +228,7 @@ fieldset {
 }
 
 .form03 {
-    max-width: 40vw;
+    max-width: 55vw;
     margin: 1vw 0vw 2vw 0vw;
 }
 
@@ -231,6 +236,7 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+    box-shadow: 3px 3px 5px rgba(223, 44, 163, 0.3);
 }
 
 .form03 fieldset label {
@@ -238,7 +244,7 @@ fieldset {
 }
 
 .form04 {
-    max-width: 40vw;
+    max-width: 55vw;
     margin: 1vw 0vw 2vw 0vw;
 }
 
@@ -246,6 +252,7 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+    box-shadow: 3px 3px 5px rgba(223, 44, 163, 0.3);
 }
 
 .form04 fieldset label {
