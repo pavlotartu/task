@@ -199,8 +199,6 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-
-
 }
 
 .form01 fieldset label {
